@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "index.html",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "_site"
+      }
+    }
+  ],
+  "scripts": {
+    "build": "gem install jekyll bundler && jekyll build"
+  }
+}
