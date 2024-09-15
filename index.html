@@ -33,18 +33,18 @@
       <nav class="navbar">
         <div class="container">
           <!-- Logo -->
-          <h1 id="logo">
-            <a href=""><img src="./src/assets/logo.png" alt="Your Logo" /></a>
-          </h1>
+       <h1 id="logo" style="float: left; font-family: 'Caveat', cursive;">
+         Visavilwa's
+       </h1>
           <!-- Navbar links -->
           <ul class="nav-menu">
             <li><a class="nav-link" href="#about">ABOUT</a></li>
             <li><a class="nav-link" href="#projects">PROJECTS</a></li>
             <li><a class="nav-link" href="#tech-stats">SKILLS</a></li>
-            <li><a class="nav-link" href="#contact">contact</a></li>
+            <li><a class="nav-link" href="#contact">CONTACT</a></li>
            
             <li>
-              <a class="nav-link btn btn-primary" href="https://flowcv.com/resume/v42jkdla85"
+              <a class="nav-link btn btn-primary" href="https://flowcv.com/resume/v42jkdla85" title="RESUME"
                 >RESUME <i class="fas fa-arrow-right"></i
               ></a>
             </li>
@@ -53,8 +53,8 @@
             <div class="theme-switch">
               <input type="checkbox" id="switch" />
               <label class="toggle-icons" for="switch">
-                <img class="moon" src="/src/assets/moon.svg" />
-                <img class="sun" src="/src/assets/sun.svg" />
+                <img class="moon" src="/src/assets/moon.svg" title="Dark Mode" />
+                <img class="sun" src="/src/assets/sun.svg" title="Light Mode"/>
               </label>
             </div>
             <!-- Hamburger menu -->
@@ -68,27 +68,24 @@
       </nav>
 
       <section class="header-container">
-        <img class="profile-image" src="/src/assets/profile-image.svg" alt="" />
-        <h1>Visavilwa Daisy</h1>
+        <img class="profile-image" src="/src/assets/profile.jpeg" alt="" />
+      
 
         <div class="content-text">
           <h1>i'm <span class="auto-type"></span></h1>
         </div>
         <a href="#" class="btn btn-primary" target="">Connect With Me</a>
-        <!-- Social links --><div class="social">
-        
-      
-          <a href="https://www.linkedin.com/in/visavilwa-daisy-766b68274/" target="_blank" title="linkedin">
+        <div class="social">
+          <a href="https://www.linkedin.com/in/visavilwa-daisy-766b68274/" target="_blank" title="linkedin" class="social-icon linkedin">
             <i class="fab fa-linkedin-in"></i>
           </a>
-          <a href="https://github.com/visavilwa1" target="_blank" title="Github">
+          <a href="https://github.com/visavilwa1" target="_blank" title="Github" class="social-icon github">
             <i class="fab fa-github"></i>
           </a>
-      
-          <a href="https://x.com/Savi94858313" target="_blank" title="X">
+          <a href="https://x.com/Savi94858313" target="_blank" title="X" class="social-icon twitter">
             <i class="fab fa-twitter"></i>
           </a>
-          <a href="https://www.instagram.com/your-instagram-profile" target="_blank" title="Instagram">
+          <a href="https://www.instagram.com/your-instagram-profile" target="_blank" title="Instagram" class="social-icon instagram">
             <i class="fab fa-instagram"></i>
           </a>
         </div>
@@ -98,7 +95,7 @@
     <section id="about" class="about-container container">
       <div class="division"></div>
       <div class="content-text">
-        <h2>About Me</h2>
+        <h2 style="font-family: 'Caveat', cursive">About Me</h2>
         <p>
           Hey there! I’m Visavilwa Daisy, a frontend dev and cybersecurity entusiast
           from Kenya. I design websites that don’t just look good—they load
@@ -116,7 +113,7 @@
     <section id="tech-stats" class="tech-stats-container container">
       <div class="division"></div>
       <div class="content-text">
-        <h2>Tech Stats</h2>
+        <h2 style="font-family: 'Caveat', cursive">Tech Stats</h2>
         <div class="stats">
           <div class="stat">
             <h3>50+</h3>
@@ -143,7 +140,7 @@
     <section id="tools" class="tools-container container">
   <div class="division"></div>
   <div class="content-text">
-    <h2>Tools</h2>
+    <h2 style="font-family: 'Caveat', cursive">Tools</h2>
     <p>Some of the tools and technologies I use in my projects</p>
     <div class="tools-grid">
       <div class="tool">
@@ -191,7 +188,7 @@
     <section id="projects" class="project-container container">
       <div class="division"></div>
       <div class="content-text">
-        <h2>Projects</h2>
+        <h2 style="font-family: 'Caveat', cursive">Projects</h2>
         <p>Check out some of my personal and paid projects</p>
       </div>
 
@@ -291,9 +288,9 @@
         >See More <i class="fas fa-arrow-right"></i
       ></a>
     </section>
-   \
+   
       <div class="container">
-        <h1>Contact Us</h1>
+        <h1 style="font-family: 'Caveat', cursive">Contact Us</h1>
         <form id="contact" method="POST" action="sendmail.php" style="background-color: #f5f5f5; padding: 20px; border-radius: 5px;">
           <div class="form-group" style="margin-bottom: 10px;">
             <label for="fname" style="display: block; font-weight: bold;">First Name</label>
@@ -309,6 +306,8 @@
               <option value="australia">Australia</option>
               <option value="canada">Canada</option>
               <option value="usa">USA</option>
+              <option value="Kenya">Kenya</option>
+              <option value="Uganda">Uganda</option>
             </select>
           </div>
           <div class="form-group" style="margin-bottom: 10px;">
@@ -321,12 +320,14 @@
         </form>
       </div>
     </section>
-    <footer id="footer">
-      <div class="container">
-        <!-- Attribution -->
-        <p>Copyright &copy; <span id="datee"></span>, All rights reserved</p>
-      </div>
-    </footer>
+  
+<footer id="footer" style=" padding: 20px; text-align: center; border-top: 0.5px solid #555;">
+  <div class="container">
+    <!-- Attribution -->
+    <p style="font-size: 14px; font-weight: bold; margin-bottom: 10px;">Visavilwa Daisy</p>
+    <p style="font-size: 12px; opacity: 0.7;"> <span id="datee"></span> All rights reserved.</p>
+  </div>
+</footer>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
       var typed = new Typed(".auto-type", {
@@ -340,11 +341,26 @@
         backSpeed: 50,
         loop: true,
       });
-
-      // Get current date
-      https: var currentDate = new Date();
-      var year = currentDate.getFullYear();
-      document.getElementById("datee").innerHTML = year;
+    
+      // Get current date and time
+      function updateDateTime() {
+        var currentDate = new Date();
+        var day = currentDate.getDate();
+        var month = currentDate.getMonth() + 1; // Months are zero-based
+        var year = currentDate.getFullYear();
+        var hours = currentDate.getHours();
+        var minutes = currentDate.getMinutes();
+        var seconds = currentDate.getSeconds();
+    
+        // Format the date and time
+        var formattedDateTime = day + '/' + month + '/' + year + ' ' + hours + ':' + minutes + ':' + seconds;
+    
+        // Update the 'datee' element with the formatted date and time
+        document.getElementById('datee').textContent = formattedDateTime;
+      }
+    
+      // Call the updateDateTime function every second
+      setInterval(updateDateTime, 1000);
     </script>
     <script src="js/script.js"></script>
   </body>

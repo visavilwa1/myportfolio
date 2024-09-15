@@ -304,38 +304,48 @@ body {
     font-size: 14px;
   }
 }
-/* Footer */
-#footer {
-  background: #111111;
-}
-
-#footer .container {
+.social {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  color: #ffffff;
-  min-height: 160px;
-  text-align: center;
+  margin-top: 20px;
 }
 
-#footer a {
-  font-size: 0.8rem;
+.social-icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #f5f5f5;
+  color: #333;
+  margin: 0 5px;
+  transition: background-color 0.3s;
+}
+
+.social-icon:hover {
+  background-color: #333;
+  color: #f5f5f5;
+}
+
+.linkedin {
+  background-color: #0077b5;
   color: #fff;
 }
 
-#footer a:hover {
-  opacity: 0.6;
+.github {
+  background-color: #333;
+  color: #fff;
 }
 
-#footer .social {
-  margin: 0.9rem 0;
+.twitter {
+  background-color: #1da1f2;
+  color: #fff;
 }
 
-.social img {
-  width: 20px;
-  height: 20px;
-  transition: transform 0.3s ease-in-out;
+.instagram {
+  background-color: #e13066;
+  color: #fff;
 }
 .project-info {
   display: flex;
