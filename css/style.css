@@ -438,42 +438,6 @@ body {
     width: 80%;
   }
 }
-.social {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-.social a {
-  margin: 0 10px;
-  font-size: 24px;
-  color: #333;
-  transition: color 0.3s ease;
-}
-
-.social a:hover {
-  color: #007bff;
-}
-
-.social a i.fab.fa-facebook-f {
-  color: #3b5998;
-}
-
-.social a i.fab.fa-twitter {
-  color: #1da1f2;
-}
-
-.social a i.fab.fa-instagram {
-  color: #e4405f;
-}
-
-.social a i.fab.fa-linkedin-in {
-  color: #0077b5;
-}
-
-.social a i.fab.fa-github {
-  color: #333;
-}
 #contact {
   background-color: #f5f5f5;
   padding: 20px;
