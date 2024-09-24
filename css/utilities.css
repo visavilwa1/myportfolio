@@ -136,17 +136,18 @@ h2::selection {
 
 /* project 1 */
 .card:nth-child(1) {
-  background: url(/src/assets/project/project-one.png) center center/cover;
+  background: url(/src/assets/project/easy-Bank.png) center center/cover;
 }
 
 /* Project 2 */
 .card:nth-child(2) {
-  background: url(/src/assets/project/project-two.png) center center/cover;
+  background: url(/src/assets/project/ip-tracker.png) center center/cover;
 }
 
 /* Project 3 */
 .card:nth-child(3) {
-  background: url(/src/assets/project/project-three.png) center center/cover;
+  background: url(/src/assets/project/Manage-langing-page.png) center
+    center/cover;
 }
 
 /* Project 4 */
