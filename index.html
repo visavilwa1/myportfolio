@@ -110,31 +110,30 @@
     </section>
 
     <!-- Tech Stats -->
-    <section id="tech-stats" class="tech-stats-container container">
-      <div class="division"></div>
-      <div class="content-text">
-        <h2 style="font-family: 'Caveat', cursive">Tech Stats</h2>
-        <div class="stats">
-          <div class="stat">
-            <h3>50+</h3>
-            <p>Projects Completed</p>
-          </div>
-          <div class="stat">
-            <h3>3</h3>
-            <p>Open Source Contributions</p>
-          </div>
-          <div class="stat">
-            <h3>10+</h3>
-            <p>Certifications</p>
-          </div>
-          <div class="stat">
-            <h3>2</h3>
-            <p>Years of Experience</p>
-          </div>
-        </div>
+  <section id="tech-stats" class="tech-stats-container container">
+  <div class="division"></div>
+  <div class="content-text">
+    <h2 style="font-family: 'Caveat', cursive">Tech Stats</h2>
+    <div class="stats">
+      <div class="stat">
+        <h3 class="count" data-target="50">0</h3>
+        <p>Projects Completed</p>
       </div>
-    </section>
-    </section>
+      <div class="stat">
+        <h3 class="count" data-target="3">0</h3>
+        <p>Open Source Contributions</p>
+      </div>
+      <div class="stat">
+        <h3 class="count" data-target="10">0</h3>
+        <p>Certifications</p>
+      </div>
+      <div class="stat">
+        <h3 class="count" data-target="2">0</h3>
+        <p>Years of Experience</p>
+      </div>
+    </div>
+  </div>
+</section>
 
    
     <section id="tools" class="tools-container container">
@@ -341,8 +340,7 @@
         backSpeed: 50,
         loop: true,
       });
-    
-      // Get current date and time
+
       function updateDateTime() {
         var currentDate = new Date();
         var day = currentDate.getDate();
@@ -352,10 +350,10 @@
         var minutes = currentDate.getMinutes();
         var seconds = currentDate.getSeconds();
     
-        // Format the date and time
+ 
         var formattedDateTime = day + '/' + month + '/' + year + ' ' + hours + ':' + minutes + ':' + seconds;
     
-        // Update the 'datee' element with the formatted date and time
+       
         document.getElementById('datee').textContent = formattedDateTime;
       }
     
