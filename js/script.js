@@ -1,3 +1,22 @@
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+       event.preventDefault();
+            let name = document.getElementById('name').value.trim();
+            let email = document.getElementById('email').value.trim();
+            let message = document.getElementById('message').value.trim();
+            let responseMessage = document.getElementById('response-message');
+
+            if (name === "" || email === "" || message === "") {
+                responseMessage.textContent = "Please fill in all fields.";
+                responseMessage.style.color = "#f00";
+                return;
+            }
+            
+            responseMessage.textContent = "Thank you for your message! I'll get back to you soon.";
+            responseMessage.style.color = "#0f0";
+            document.getElementById('contact-form').reset();
+
+
+
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 
